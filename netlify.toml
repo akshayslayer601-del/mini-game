@@ -1,0 +1,12 @@
+[build]
+  publish = "web"
+
+[[headers]]
+  for = "/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+
+[[headers]]
+  for = "/*.pck"
+  [headers.values]
+    Content-Type = "application/octet-stream"

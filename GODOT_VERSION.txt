@@ -1,0 +1,2 @@
+Designed for Godot 4.7.x.
+Current stable target: Godot 4.7.2.
